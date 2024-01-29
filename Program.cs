@@ -22,9 +22,27 @@ namespace Employee_Payroll
             }
             Console.ReadKey();
 
-            int val = 8 * 20;
-            Console.WriteLine(val);
+            int val2 = 8 * 20;
+            Console.WriteLine(val2);
             Console.ReadLine();
+
+            Random rnd = new Random();
+            int val3 = rnd.Next(3);
+            if (val3 == 0)
+            {
+                Console.WriteLine("Absent");
+            }
+            else if (val3 == 1)
+            {
+                Console.WriteLine("Part Time");
+            }
+            else
+            {
+                Console.WriteLine("Full Time");
+
+            }
+            Console.ReadKey();
+
 
         }
     }
