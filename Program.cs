@@ -26,8 +26,8 @@ namespace Employee_Payroll
             Console.WriteLine(val2);
             Console.ReadLine();
 
-            Random rnd = new Random();
-            int val3 = rnd.Next(3);
+            Random rnd1 = new Random();
+            int val3 = rnd1.Next(3);
             if (val3 == 0)
             {
                 Console.WriteLine("Absent");
@@ -42,6 +42,23 @@ namespace Employee_Payroll
 
             }
             Console.ReadKey();
+
+            Random rnd2 = new Random();
+            int val = rnd2.Next(3);
+            switch (val)
+            {
+                case 0:
+                    Console.WriteLine("Absent");
+                    break;
+                case 1:
+                    Console.WriteLine("Part Time");
+                    break;
+                case 2:
+                    Console.WriteLine("Full Time");
+                    break;
+            }
+            Console.ReadKey();
+
 
 
         }
