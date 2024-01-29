@@ -62,6 +62,20 @@ namespace Employee_Payroll
             int val4 = 20 * 8 * 20;
             Console.WriteLine(val4);
             Console.ReadLine();
+
+            Random rnd3 = new Random();
+            int days = 0, hours = 0;
+            while (days < 20 && hours < 100)
+            {
+                int val5 = rnd3.Next(3);
+                hours += val * 4;
+                days++;
+                Console.WriteLine($"val : {val}  Hours : {hours} days : {days}");
+            }
+            int wages = hours * 20;
+            Console.WriteLine($"Wages : {wages}");
+            Console.ReadKey();
+
         }
     }
 }
