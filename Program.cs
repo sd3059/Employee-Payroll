@@ -10,7 +10,18 @@ namespace Employee_Payroll
     {
         static void Main(string[] args)
         {
-
+            Random random = new Random();
+            int val = random.Next(2);
+            if (val == 0)
+            {
+                Console.WriteLine("Absent");
+            }
+            else
+            {
+                Console.WriteLine("Present");
+            }
+            Console.ReadKey();
         }
     }
+
 }
