@@ -1,0 +1,7 @@
+C:\Users\Shouvik Das\Dropbox\Desktop\Training\Employee-Payroll\bin\Debug\Employee-Payroll.exe.config
+C:\Users\Shouvik Das\Dropbox\Desktop\Training\Employee-Payroll\bin\Debug\Employee-Payroll.exe
+C:\Users\Shouvik Das\Dropbox\Desktop\Training\Employee-Payroll\bin\Debug\Employee-Payroll.pdb
+C:\Users\Shouvik Das\Dropbox\Desktop\Training\Employee-Payroll\obj\Debug\Employee-Payroll.csproj.AssemblyReference.cache
+C:\Users\Shouvik Das\Dropbox\Desktop\Training\Employee-Payroll\obj\Debug\Employee-Payroll.csproj.CoreCompileInputs.cache
+C:\Users\Shouvik Das\Dropbox\Desktop\Training\Employee-Payroll\obj\Debug\Employee-Payroll.exe
+C:\Users\Shouvik Das\Dropbox\Desktop\Training\Employee-Payroll\obj\Debug\Employee-Payroll.pdb
