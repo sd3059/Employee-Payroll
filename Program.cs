@@ -59,9 +59,9 @@ namespace Employee_Payroll
             }
             Console.ReadKey();
 
-
-
+            int val4 = 20 * 8 * 20;
+            Console.WriteLine(val4);
+            Console.ReadLine();
         }
     }
-
 }
